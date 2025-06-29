@@ -17,11 +17,16 @@ const AppContainer = styled.div`
 `;
 
 const App = () => {
-  const [stats, setStats] = useState({
-    defeated: 0,
-    allies: 0,
-    totalConversions: 0
-  });
+  // ランダムな初期値を生成する関数
+  const generateRandomInitialStats = () => {
+    return {
+      defeated: Math.floor(Math.random() * 5000) + 1000, // 1000-6000
+      allies: Math.floor(Math.random() * 2000) + 500,    // 500-2500
+      totalConversions: Math.floor(Math.random() * 10000) + 2000 // 2000-12000
+    };
+  };
+
+  const [stats, setStats] = useState(generateRandomInitialStats());
 
   const [deeplEnabled, setDeeplEnabled] = useState(false);
   const [targetLanguage, setTargetLanguage] = useState('ja');
@@ -35,13 +40,11 @@ const App = () => {
   const updateStats = (command, unitType) => {
     setStats(prev => {
       const newStats = { ...prev, totalConversions: prev.totalConversions + 1 };
-      
-      if (command === 'conquer' && unitType === 'imperial') {
+      if (command === 'liberate' && (unitType === 'imperial' || unitType === 'imperial_uk' || unitType === 'imperial_us')) {
         newStats.defeated = prev.defeated + 1;
-      } else if (command === 'conquer' && unitType === 'metric') {
+      } else if (command === 'liberate' && unitType === 'metric') {
         newStats.allies = prev.allies + 1;
       }
-      
       return newStats;
     });
   };

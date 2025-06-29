@@ -282,7 +282,7 @@ const ConversionPanel = ({
           type="number"
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          placeholder="数値を入力"
+          placeholder="input a number"
           step="any"
           onKeyPress={handleKeyPress}
           style={{ flex: 1 }}

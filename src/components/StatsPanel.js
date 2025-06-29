@@ -64,37 +64,7 @@ const ProgressFill = styled(motion.div)`
 `;
 
 const StatsPanel = ({ stats }) => {
-  const [displayStats, setDisplayStats] = useState({
-    defeated: 0,
-    allies: 0,
-    totalConversions: 0
-  });
-
-  // ランダムな初期値を生成する関数
-  const generateRandomInitialStats = () => {
-    return {
-      defeated: Math.floor(Math.random() * 5000) + 1000, // 1000-6000
-      allies: Math.floor(Math.random() * 2000) + 500,    // 500-2500
-      totalConversions: Math.floor(Math.random() * 10000) + 2000 // 2000-12000
-    };
-  };
-
-  useEffect(() => {
-    // コンポーネントマウント時にランダムな初期値を設定
-    const initialStats = generateRandomInitialStats();
-    setDisplayStats(initialStats);
-  }, []);
-
-  useEffect(() => {
-    // statsが更新されたら、displayStatsに反映
-    setDisplayStats(prev => ({
-      defeated: prev.defeated + stats.defeated,
-      allies: prev.allies + stats.allies,
-      totalConversions: prev.totalConversions + stats.totalConversions
-    }));
-  }, [stats.defeated, stats.allies, stats.totalConversions]);
-
-  const progress = Math.round((displayStats.defeated / (displayStats.defeated + displayStats.allies + 1)) * 100);
+  const progress = Math.round((stats.defeated / (stats.defeated + stats.allies + 1)) * 100);
 
   return (
     <StatsContainer>
@@ -105,7 +75,7 @@ const StatsPanel = ({ stats }) => {
         whileHover={{ scale: 1.05 }}
       >
         <StatLabel color="#ff6b6b">📊 Imperial Units Defeated</StatLabel>
-        <StatValue>{displayStats.defeated.toLocaleString()}</StatValue>
+        <StatValue>{stats.defeated.toLocaleString()}</StatValue>
       </StatBox>
 
       <StatBox
@@ -115,7 +85,7 @@ const StatsPanel = ({ stats }) => {
         whileHover={{ scale: 1.05 }}
       >
         <StatLabel color="#4ade80">🤝 Metric Allies</StatLabel>
-        <StatValue>{displayStats.allies.toLocaleString()}</StatValue>
+        <StatValue>{stats.allies.toLocaleString()}</StatValue>
       </StatBox>
 
       <StatBox
@@ -142,7 +112,7 @@ const StatsPanel = ({ stats }) => {
         whileHover={{ scale: 1.05 }}
       >
         <StatLabel color="#a78bfa">🎯 Total Conversions</StatLabel>
-        <StatValue>{displayStats.totalConversions.toLocaleString()}</StatValue>
+        <StatValue>{stats.totalConversions.toLocaleString()}</StatValue>
       </StatBox>
     </StatsContainer>
   );

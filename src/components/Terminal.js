@@ -57,6 +57,16 @@ const Quote = styled.div`
   font-style: italic;
 `;
 
+const Footer = styled.div`
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #333;
+  color: #888;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.5px;
+`;
+
 const Terminal = ({ children }) => {
   return (
     <TerminalContainer
@@ -70,6 +80,11 @@ const Terminal = ({ children }) => {
         <Quote>"In Celsius We Trust, In Meters We Measure" - Liberator Celsius</Quote>
       </Header>
       {children}
+      <Footer>
+        🎭 Created for fun and educational purposes.<br />
+        Please don't sue us for liberating your measurements.<br />
+        you're into joking-projects, please visit our <a href='https://github.com/Metric-Liberation-Front/Liberator-Celsius'>GitHub</a>.
+      </Footer>
     </TerminalContainer>
   );
 };
