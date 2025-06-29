@@ -1,8 +1,8 @@
-# 　　　　　　　　　　   ╔══════════════════════════════╗
-#    　　　　　　　　　　║     LIBERATOR CELSIUS v1.0   ║
-#    　　　　　　　　　　║   Metric System Supremacy    ║
-#    　　　　　　　　　　╚══════════════════════════════╝
-## 　　　　　　　~ FREEING HUMANITY FROM THE SHACKLES OF IMPERIAL TYRANNY ~
+**╔══════════════════════════════╗**<br>
+**║     LIBERATOR CELSIUS v1.0**<br>
+**║   Metric System Supremacy**<br>
+**╚══════════════════════════════╝**<br>
+~ FREEING HUMANITY FROM THE SHACKLES OF IMPERIAL TYRANNY ~
 
 ## **"In Celsius We Trust, In Meters We Measure"** - The Liberator Celsius
 --- 
@@ -103,21 +103,32 @@ Framer Motion - Smooth animations for smooth conversions
 
 
 ## 🎭 TESTIMONIALS FROM THE LIBERATED
-```"I used to think 98.6°F was normal body temperature. Now I know the truth: 37°C. My life has meaning again." - Former Imperial Victim```
-
-```"大さじ1 = 15ml. Simple. Logical. Beautiful." - Some liberated cusine```
-
 ```
-"I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all measurements are created equal.'"
-- Pastor Prince
+"I used to think 98.6°F was normal body temperature. Now I know the truth: 37°C. My life has meaning again."
+　- Former Imperial Victim
 ```
 
 ```
-"We shall defend our Celsius, whatever the cost may be. We shall fight on the seas and oceans with growing confidence. We shall never surrender to Fahrenheit."
-- Sir Leonard
+"大さじ1 = 15ml. Simple. Logical. Beautiful."
+　- Some liberated cusine
 ```
 
-```"Make America Metric Again." - anonymous```
+```
+"I have a dream that one day this nation will rise up and live out the true meaning of its creed:
+'We hold these truths to be self-evident, that all measurements are created equal.'"
+　- Pastor Prince
+```
+
+```
+"We shall defend our Celsius, whatever the cost may be. We shall fight on the seas and
+oceans with growing confidence. We shall never surrender to Fahrenheit."
+　- Sir Leonard
+```
+
+```
+"Make America Metric Again." 
+　- anonymous
+```
 
 ## 📜 GENEVA CONVENTION COMPLIANCE
 This software is designed for peaceful unit conversion only. Any resemblance to actual warfare is purely satirical. We promote mathematical education through humor, not actual combat.
