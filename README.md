@@ -1,5 +1,4 @@
-# 🎭 This is a just-for-play project ... so, don't take it seriously, bro
----
+
 **╔══════════════════════════════╗**<br>
 **║     LIBERATOR CELSIUS v1.0**<br>
 **║   Metric System Supremacy**<br>
@@ -154,3 +153,7 @@ A. That's because it's a revolution.
 A. Revolutionaries pinoeer their own paths. Just try.
 
 ---
+
+# 🎭 DISCLAIMER
+This project is created for entertainment purposes and does not represent actual political views.
+....but, yard/pound should perish.
