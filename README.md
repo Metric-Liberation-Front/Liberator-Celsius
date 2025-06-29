@@ -156,4 +156,4 @@ A. Revolutionaries pinoeer their own paths. Just try.
 
 # 🎭 DISCLAIMER
 This project is created for entertainment purposes and does not represent actual political views;<br>
-....but, yard/pound should perish.
+....but, yard/pound should perish anyway.
