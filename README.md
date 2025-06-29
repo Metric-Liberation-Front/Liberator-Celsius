@@ -1,6 +1,5 @@
-# 🎭 This is a just-for-play project
-   ... so, take it easy
- 
+# 🎭 This is a just-for-play project ... so, don't take it seriously, bro
+---
 **╔══════════════════════════════╗**<br>
 **║     LIBERATOR CELSIUS v1.0**<br>
 **║   Metric System Supremacy**<br>
